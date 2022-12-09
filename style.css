@@ -1,0 +1,89 @@
+html {
+    width: 1200px;
+    height: 1080px;
+
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* background-color: #efe7da; */
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+    z-index: -10;
+}
+
+nav {
+    position: relative;
+    top: -35rem;
+    right: -77rem;
+}
+
+nav h2 {
+    padding-bottom: 4rem;
+}
+
+#forms {
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 1200px;
+}
+
+form {
+    min-width: 350px;
+    
+}
+
+form fieldset {
+    border: none;
+}
+
+#skincolors fieldset,
+#haircolors fieldset,
+#clothes fieldset {
+    display: flex;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#button {
+    margin-left: 3rem;
+}
+
+#colorPreview {
+    width: 1rem;
+    height: 1rem;
+}
+
+.skin-01 { background-color: #503335; }
+.skin-02 { background-color: #5f342f; }
+.skin-03 { background-color: #a1665e; }
+.skin-04 { background-color: #c58c85; }
+.skin-05 { background-color: #c79a9b; }
+.skin-06 { background-color: #ecbcb4; }
+
+.hair-01 { background-color: #debe99; }
+.hair-02 { background-color: #aa8866; }
+.hair-03 { background-color: #6a330d; }
+.hair-04 { background-color: #9a3300; }
+.hair-05 { background-color: #4f1a00; }
+.hair-06 { background-color: #241c11; }
+
+
+.skin01 {
+    fill: #503335;
+}
